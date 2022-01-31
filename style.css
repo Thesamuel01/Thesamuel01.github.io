@@ -13,17 +13,29 @@ h2 {
     font-family: 'Playfair Display', serif;
 }
 
+li:nth-child(2n+1) {
+    color: #5D2E46;
+}
+
 strong {
     color: #104547;
 }
 
-.about {
+.cards {
     background-color: rgba(181, 141, 182, .25);
     border-radius: 10px;
     margin: 25px auto;
     padding: 30px;
     text-align: center;
     width: 600px;
+}
+
+footer {
+    text-align: center;
+}
+
+.header {
+    text-align: center;
 }
 
 .item_one {
@@ -48,4 +60,12 @@ strong {
     border-radius: 50%;
     height: 300px;
     width: 300px;
+}
+
+.social_media {
+    margin: 0 10px;
+}
+
+.title {
+    text-align: center;
 }
